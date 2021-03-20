@@ -8,7 +8,7 @@ setup(
     # Needed to actually package something
     packages=['noicelinkpy'],
     # Needed for dependencies
-    install_requires=['json', 'requests'],
+    install_requires=['requests'],
     # *strongly* suggested for sharing
     version='1.0',
     # The license can be anything you like
