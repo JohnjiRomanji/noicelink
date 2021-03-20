@@ -1,1 +1,1 @@
-from noicepy import Link
+from .noicepy import Link
