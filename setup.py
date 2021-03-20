@@ -2,11 +2,11 @@ from setuptools import setup
 
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
-    name='noicelink.py',
+    name='noicelinkpy',
     url='https://github.com/JohnjiRomanji/noicelink.py',
     author='JohnjiRomanji',
     # Needed to actually package something
-    packages=['noicelink.py'],
+    packages=['noicelinkpy'],
     # Needed for dependencies
     install_requires=['json', 'requests'],
     # *strongly* suggested for sharing
