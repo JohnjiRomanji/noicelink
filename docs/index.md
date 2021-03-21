@@ -35,4 +35,4 @@ Soon™
 #### Deleting a URL
 Soon™
 
-![housxe](https://www.svgrepo.com/download/57358/cute-tiny-house.svg)
+
