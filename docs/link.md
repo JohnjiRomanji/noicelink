@@ -45,4 +45,4 @@ noicepy.Link(
 [Up Next: Creating a New Link](https://johnjiromanji.github.io/noicepy/create)
 [Go Back: Homepage](https://johnjiromanji.github.io/noicepy)
 
-[![Go Home](https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/home-512.png) Go Home](https://johnjiromanji.github.io/noicepy =250x)
+[Go Home](https://johnjiromanji.github.io/noicepy)
