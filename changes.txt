@@ -1,0 +1,11 @@
+The first ~40 commits (0-40): 
+     - Putting everything in the right paths and files
+     - Fixing errors when importing
+    
+The next ~35 commits (40-75):
+     - Creating a hompeage for the docs
+     - Creating a page for the Link Object in the docs
+     - More docs coming soom
+
+The next 1 commit (75-76): 
+     - Creating changes.txt (this file)
