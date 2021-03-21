@@ -9,3 +9,9 @@ The next ~35 commits (40-75):
 
 The next 1 commit (75-76): 
      - Creating changes.txt (this file)
+
+The next 12 commits (75-87): 
+     - Adding more to the docs ¯\_(ツ)_/¯
+
+The next 1 commit (87-88): 
+     - Changing this file
