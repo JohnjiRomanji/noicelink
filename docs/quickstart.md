@@ -5,7 +5,7 @@ In your ternimal, with git and pip installed, run the following command to insta
 pip install git+https://github.com/JohnjiRomanji/noicepy.git
 ```
 
-After that you should be goot to import noicepy and use it like in the docs. 
+After that you should be good to import noicepy and use it like in the docs. 
 ```py
 import noicepy
 ```
