@@ -1,11 +1,12 @@
 ## Documentation
 ### Contents
 1. [Homepage](https://johnjiromanji.github.io/noicepy)
-2. [The Link Object](https://johnjiromanji.github.io/noicepy/link)
-3. [Creating a Link](https://johnjiromanji.github.io/noicepy/create)
-4. [Editing a Link](https://johnjiromanji.github.io/noicepy/edit)
-5. [Deleting a Link](https://johnjiromanji.github.io/noicepy/delete)
-6. [Errors](https://johnjiromanji.github.io/noicepy/errors)
+2. [Quickstart](https://johnjiromanji.github.io/noicepy/quickstart)
+3. [The Link Object](https://johnjiromanji.github.io/noicepy/link)
+4. [Creating a Link](https://johnjiromanji.github.io/noicepy/create)
+5. [Editing a Link](https://johnjiromanji.github.io/noicepy/edit)
+6. [Deleting a Link](https://johnjiromanji.github.io/noicepy/delete)
+7. [Errors](https://johnjiromanji.github.io/noicepy/errors)
 
 
 [Up Next: The Link Object](https://johnjiromanji.github.io/noicepy/link)
