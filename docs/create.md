@@ -15,8 +15,7 @@ noicepy.Link.create(url, **kwargs)
 
 **Note:** All kwargs are optional, if not provided the API will default them. 
 
-**Samples: **
-
+**Samples:**
 Command: 
 ```py
 import noicepy
