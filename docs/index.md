@@ -1,6 +1,3 @@
-# noicepy
-## The simple, easy to use python wrapper for [noice.link](http://noice.link)
-
 ## Documentation
 ### Contents
 1. [Homepage](https://johnjiromanji.github.io/noicepy)
