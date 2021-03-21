@@ -9,7 +9,7 @@
 7. [Errors](https://johnjiromanji.github.io/noicepy/errors)
 
 
-[Up Next: The Link Object](https://johnjiromanji.github.io/noicepy/link)
+[Up Next: Quickstart](https://johnjiromanji.github.io/noicepy/quickstart)
 
 [Go Back: Errors](https://johnjiromanji.github.io/errors)
 
