@@ -43,6 +43,7 @@ noicepy.Link(
 ```
 
 [Up Next: Creating a New Link](https://johnjiromanji.github.io/noicepy/create)
+
 [Go Back: Homepage](https://johnjiromanji.github.io/noicepy)
 
 [Go Home](https://johnjiromanji.github.io/noicepy)
