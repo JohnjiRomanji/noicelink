@@ -8,4 +8,10 @@
 6. [Errors](https://johnjiromanji.github.io/noicepy/errors)
 
 
-For more support join the noice.link discord server from the [noice.link](https://noice.link) website. 
+[Up Next: The Link Object](https://johnjiromanji.github.io/noicepy/link)
+
+[Go Back: Errors](https://johnjiromanji.github.io/errors)
+
+[Go Home](https://johnjiromanji.github.io/noicepy)
+
+[Questions, Problems, or Suggestions? Report them to the noice.link discord server](https://discord.com/invite/879kJMUgGP)
