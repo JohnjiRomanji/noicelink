@@ -1,6 +1,40 @@
+'''
+MIT License
+
+Copyright (c) 2021 JohnjiRomanji
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+'''
+
+'''
+LOOK AT THE DOCS 
+PLEASE LOOK AT THE DOCS
+
+https://johnjiromanji.github.io/noicepy
+
+Join the noice.link discord server (on the website) for support
+'''
+
 import requests
 import json
 
+#Errors: Pretty self-explanatory
 class Error(Exception):
     pass
 class SlugInUse(Error):
@@ -38,6 +72,7 @@ class NotFound(Error):
 		def __str__(self): 
 			return "The link with the information provided was not found"
 
+#The Link object class, all links are stored as the `Link` object. `noicepy.Link()`
 class Link: 
 	def __init__(self, **kwargs):
 		#url, slug, title, description, image, token, id 
@@ -62,9 +97,11 @@ class Link:
 		else:
 			self.domain="noice.link"
 	
+	#The extremly simple version of the link that is preferable if wanted to be displayed to a user
 	def __str__(self): 
 		return f"https://noice.link/{self.slug}"
 	
+	#What you should really use if you want to find out about the properties of a link
 	def __repr__(self):
 		
 		representation = {
@@ -80,6 +117,8 @@ class Link:
 		}
 		return str(representation)
 
+	#Creates a new link form kwargs and returns the Link obj of it.
+	#When this is used it is recommended to store the link's token for future use and reference
 	def create(url, **kwargs): 
 		data = { 
 			'url': f'{url}'
@@ -113,7 +152,12 @@ class Link:
 				raise InvalidColor(data['color'])
 		else: 
 			return Link(url=response['url'], description=response['description'], image=response['image'], title=response['title'], slug=response['slug'], developer=True, token=response['token'], color=response['color'])
-	
+
+	#Gets a link form a slug OR a token NOT BOTH. 
+	#Used to get a link for editing or deleting without having to create it. 
+	#If slug is provided `Link.developer` in the returned object will be False 
+	#	and you will NOT be able to edit it. therwise it will be true and return 
+	#	a token which will let you edit/delete it
 	def get(**kwargs): 
 		if 'slug' in kwargs.keys(): 
 			r=requests.get(f"https://noice.link/api/url?slug={kwargs['slug']}")
@@ -135,6 +179,8 @@ class Link:
 			else:
 				return Link(url=a['url'], slug=a['slug'], description=a['description'], title=a['title'], image=a['image'], color=a['color'], developer=True, token=a['token'])
 
+				       
+	#Edits a link using kwargs, more info in the docs
 	def edit(self, **kwargs): 
 		if self.developer==True: 
 			data={}
@@ -190,6 +236,7 @@ class Link:
 		else:
 			raise AccessForbidden
 
+	#Deletes the provided link, look at the docs. 
 	def delete(self):
 		if self.developer==True: 
 			r = requests.delete("https://noice.link/api/url", headers={"Authorization":self.token})
