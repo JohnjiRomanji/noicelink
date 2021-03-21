@@ -16,9 +16,9 @@ Link(**kwargs)
 | color      |         |                 |
 
 
-Kwargs: 
+**Kwargs:**
 * `url`: `str` - The redirect link of the shortened link
-* `slug`: `str` - The slug of the link. (`https://noice.link/{slug}`) 
+* `slug`: `str` - The slug of the link. (`https://noice.link/{slug}`). 
 * `developer`: `bool` - Whether or not the link is an editable link. If `True`, then token will have a val, if `False` token will be `None`
 * `token`: `str` - The token of the link that is needed to edit it or add it to an account. 
 * `domain`: `str` - The custom domain of the link. 
