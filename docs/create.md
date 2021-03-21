@@ -27,7 +27,8 @@ Response:
 noicepy.Link(url= 'https://johnjiromanji.github.io/noicepy/create', description= 'Click it!', image= 'https://cdn.discordapp.com/emojis/808327502249328691.gif', title= 'Creating a link with noicepy', slug= 'noicepy-docs-create', token= 'eyJhbGciOiJIU...', developer= True, color= '#7289da', domain= 'noice.link')
 ```
 Embed: 
-![Embed of the previous link](https://media.discordapp.net/attachments/820183917125435394/823309460935934002/unknown.png)
+
+![Embed of the previous link](https://media.discordapp.net/attachments/820183917125435394/823309460935934002/unknown.png =250x)
 
 
 [Up Next: Editing a Link](https://johnjiromanji.github.io/noicepy/edit)
