@@ -45,7 +45,7 @@ noicepy.Link(
 
 [Up Next: Creating a New Link](https://johnjiromanji.github.io/noicepy/create)
 
-[Go Back: Homepage](https://johnjiromanji.github.io/noicepy)
+[Go Back: Quickstart](https://johnjiromanji.github.io/noicepy/quickstart)
 
 [Go Home](https://johnjiromanji.github.io/noicepy)
 
