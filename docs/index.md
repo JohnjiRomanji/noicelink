@@ -4,7 +4,7 @@
 ## Documentation
 ### Contents
 Soon™
-#
+
 #### The `Link` Object
 Soon™
 ```py
@@ -22,15 +22,15 @@ Kwargs:
 * `color`: `str` - A hex value for the link's embed's color
 
 
-#
+
 #### Registering a URL
 Soon™
-#
+
 #### Fetching a URL
 Soon™
-#
+
 #### Editing a URL
 Soon™
-#
+
 #### Deleting a URL
 Soon™
