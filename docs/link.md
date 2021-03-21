@@ -27,10 +27,11 @@ Link(**kwargs)
 * `image`: `str` - A url for the image of the embed
 * `color`: `str` - A hex value for the link's embed's color
 
-**Note:** All kwargs must be provided, when createing a link, if something is not specified, it will default to the default noice.link fields. 
+**Note:** All kwargs must be provided when a Link object is created, but when createing a link, if something is not specified, it will default to the default noice.link fields. 
 
 Sample Link object: 
 ```py
+import noicepy
 noicepy.Link(
     url="https://github.com/JohnjiRomanji/noicepy", 
     slug="noicepy-docs", 
