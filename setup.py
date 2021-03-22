@@ -8,8 +8,7 @@ setup(
     install_requires=['requests'],
     # *strongly* suggested for sharing
     version='1.0',
-    
-    docs="https://johnjiromanji.github.io/noicepy"
+    docs="https://johnjiromanji.github.io/noicepy",
     # The license can be anything you like
     license='MIT',
     description='A simple and easy to use Python wrapper for the noice.link API',
