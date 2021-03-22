@@ -11,6 +11,7 @@ noicepy.Link.get(**kwargs)
 **Note:** This function will take token __or__ slug __not both__
 
 **Samples:**
+
 With a Token:
 ```py
 noicepy.Link.get(token="eyASNOnjds...")
