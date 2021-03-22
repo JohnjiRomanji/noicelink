@@ -16,9 +16,9 @@ noicepy.Link.create(url, **kwargs)
 **Note:** All kwargs are optional, if not provided the API will default them. 
 
 **Samples:**
+
 Command: 
 ```py
-import noicepy
 noicepy.Link.create("https://johnjiromanji.github.io/noicepy/create", slug="noicepy-docs-create", title="Creating a link with noicepy", description="Click it!")
 ```
 Response:
