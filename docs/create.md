@@ -30,7 +30,7 @@ Embed:
 ![Embed of the previous link](https://media.discordapp.net/attachments/820183917125435394/823309460935934002/unknown.png)
 
 
-[Up Next: Editing a Link](https://johnjiromanji.github.io/noicepy/edit)
+[Up Next: Fetching a Link](https://johnjiromanji.github.io/noicepy/get)
 
 [Go Back: The Link Object](https://johnjiromanji.github.io/link)
 
