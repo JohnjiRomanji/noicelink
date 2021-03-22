@@ -12,3 +12,8 @@ The next 1 commit (75-76):
 
 The next 12 commits (75-92): 
      - Adding more to the docs and readme ¯\_(ツ)_/¯
+
+The next 10 commits (92-102): 
+     - Creating another page in the docs
+     - Adding the docs to setup.py
+     - Fixing an error when building using setup.py
