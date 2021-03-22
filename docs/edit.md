@@ -3,7 +3,7 @@ Soon™
 
 [Up Next: Deleting a Link](https://johnjiromanji.github.io/noicepy/delete)
 
-[Go Back: Creating a Link](https://johnjiromanji.github.io/create)
+[Go Back: Fetching a Link](https://johnjiromanji.github.io/get)
 
 [Go Home](https://johnjiromanji.github.io/noicepy)
 
