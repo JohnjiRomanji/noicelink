@@ -29,9 +29,8 @@ Link(**kwargs)
 
 **Note:** All kwargs must be provided when a Link object is created, but when createing a link, if something is not specified, it will default to the default noice.link fields. 
 
-`str(noicepy.Link)`: Returns the readable, and clickable version of the shortened link. 
-`repr(noicepy.Link)`: Returns the a more detailed dictionary of all the values and attributes of the link. 
-
+* `str(noicepy.Link)`: Returns the readable, and clickable version of the shortened link. 
+* `repr(noicepy.Link)`: Returns the a more detailed dictionary of all the values and attributes of the link. 
 
 Sample Link object: 
 ```py
