@@ -4,8 +4,10 @@
 noicepy.Link.create(url, **kwargs)
 ```
 
-**Kwargs:**
+**Args:**
 * `url`: `str` - The redirect link of the shortened link
+
+**Kwargs:**
 * `slug`: `str` - The slug of the link. (`https://noice.link/{slug}`). 
 * `domain`: `str` - The custom domain of the link. 
 * `title`: `str` - Title of the link's embed
