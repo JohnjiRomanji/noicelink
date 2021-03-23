@@ -9,7 +9,6 @@ noicepy.Link.create(url, **kwargs)
 
 **Kwargs:**
 * `slug`: `str` - The slug of the link. (`https://noice.link/{slug}`). 
-* `domain`: `str` - The custom domain of the link. 
 * `title`: `str` - Title of the link's embed
 * `description`: `str` - The description of the link's embed
 * `image`: `str` - A url for the image of the embed
@@ -17,7 +16,7 @@ noicepy.Link.create(url, **kwargs)
 
 **Note:** All kwargs are optional, if not provided the API will default them. 
 
-**Samples:**
+**Sample:**
 
 Command: 
 ```py
@@ -29,7 +28,7 @@ noicepy.Link(url= 'https://johnjiromanji.github.io/noicepy/create', description=
 ```
 Embed: 
 
-![Embed of the previous link](https://media.discordapp.net/attachments/820183917125435394/823309460935934002/unknown.png)
+![Embed of the previously created link](https://media.discordapp.net/attachments/820183917125435394/823309460935934002/unknown.png)
 
 
 [Up Next: Fetching a Link](https://johnjiromanji.github.io/noicepy/get)
