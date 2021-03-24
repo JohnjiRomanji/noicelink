@@ -17,3 +17,6 @@ The next 10 commits (92-102):
      - Creating another page in the docs
      - Adding the docs to setup.py
      - Fixing an error when building using setup.py
+
+The next 19 commits (102-121): 
+     - Docs are done! 
