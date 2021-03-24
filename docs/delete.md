@@ -8,12 +8,12 @@ noicepy.Link.delete()
 
 returns `True` if successful
 
-**Raises Errors:** `AccessForbidden`, `ErrorOccured`
+**Raises [Errors](https://johnjiromanji.github.io/errors):** `AccessForbidden`, `ErrorOccured`
 
 **Sample:**
 
 Command:
-``py
+```py
 link = noicepy.Link.get(token="eyJhbGciOiJIU...") 
 link.delete()
 ```
