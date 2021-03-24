@@ -4,7 +4,12 @@
 
 #### Quickstart
 
-In your ternimal, with git and pip installed, run the following command to install: 
+In your ternimal, with pip installed, run the following command to install: 
+```
+pip install noicepy
+```
+
+Or with git: 
 ```
 pip install git+https://github.com/JohnjiRomanji/noicepy.git
 ```
