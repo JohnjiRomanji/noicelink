@@ -1,5 +1,26 @@
 ## Deleting a Link
-Soon™
+
+```py
+noicepy.Link.delete()
+```
+
+**Note:** Make sure the link provided has `developer` set to `True` and has a value for `token`, otherwise it will not work. 
+
+returns `True` if successful
+
+**Raises Errors:** `AccessForbidden`, `ErrorOccured`
+
+**Sample:**
+
+Command:
+``py
+link = noicepy.Link.get(token="eyJhbGciOiJIU...") 
+link.delete()
+```
+Response:
+```py
+True
+```
 
 [Up Next: Errors](https://johnjiromanji.github.io/noicepy/errors)
 
