@@ -1,9 +1,9 @@
 ## Errors
 
-|Error|Description|
--------------------
-|SlugInUse|The slug you provided is already in use. |
-
+|Error           |Description                                         |
+-----------------------------------------------------------------------
+|SlugInUse       |The slug you provided is already in use.            |
+|AlreadyShortened|You are trying to shorten an already shortened link.| 
 
 
 
@@ -11,7 +11,7 @@
 
 **AlreadyShortened**
 
-You are trying to shorten an already shortened link. 
+
 
 
 **InvalidImage**
