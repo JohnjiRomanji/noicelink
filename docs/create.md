@@ -16,7 +16,7 @@ noicepy.Link.create(url, **kwargs)
 
 **Note:** All kwargs are optional, if not provided the API will default them. 
 
-**Raises Errors:** `SlugInUse`, `AlreadyShortened`, `InvalidImage`, `ErrorOccured`, `AccessForbidden`, `MalformedRequest`, `InvalidColor`
+**Raises [Errors](https://johnjiromanji.github.io/errors):** `SlugInUse`, `AlreadyShortened`, `InvalidImage`, `ErrorOccured`, `AccessForbidden`, `MalformedRequest`, `InvalidColor`
 
 **Sample:**
 
