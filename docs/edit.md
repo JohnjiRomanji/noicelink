@@ -16,7 +16,7 @@ noicepy.Link.edit(**kwargs)
 
 Returns the new `noicepy.Link` object. 
 
-**Raises Errors:** `AccessForbidden`, `ErrorOccured`, `AlreadyShortened`, `InvalidImage`, `MalformedRequest`, `InvalidColor`
+**Raises [Errors](https://johnjiromanji.github.io/errors):** `AccessForbidden`, `ErrorOccured`, `AlreadyShortened`, `InvalidImage`, `MalformedRequest`, `InvalidColor`
 
 **Sample:**
 
