@@ -1,8 +1,11 @@
 ## Errors
 
-**SlugInUse**
+|Error|Description|
+-------------------
+|SlugInUse|The slug you provided is already in use. |
 
-The slug you provided is already in use. 
+
+
 
 
 
