@@ -1,27 +1,35 @@
 ## Errors
 
 **SlugInUse**
+
 The slug you provided is already in use. 
 
 **AlreadyShortened**
+
 You are trying to shorten an already shortened link. 
 
 **InvalidImage**
+
 The image provided is invalid. 
 
 **ErrorOccured**
+
 An unknown error occured. 
 
 **MalformedRequest**
+
 Your requests was not formatted properly. 
 
 **InvalidColor**
+
 The color provided is invalid. 
 
 **InvalidToken**
+
 The token provided is invalid. 
 
 **NotFound**
+
 The link that you tried to get using slug or token is not found. 
 
 
