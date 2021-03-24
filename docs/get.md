@@ -10,6 +10,8 @@ noicepy.Link.get(**kwargs)
 
 **Note:** This function will take token __or__ slug __not both__
 
+**Raises Errors:** `InvalidToken`, `NotFound`
+
 **Samples:**
 
 With a Token:
