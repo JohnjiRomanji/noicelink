@@ -1,7 +1,7 @@
 ## Editing a Link
 
 ```py
-noicepy.Link.edit(**kwargs)
+noicelink.Link.edit(**kwargs)
 ```
 
 **Kwargs:**
@@ -16,24 +16,24 @@ noicepy.Link.edit(**kwargs)
 
 Returns the new `noicepy.Link` object. 
 
-**Raises [Errors](https://johnjiromanji.github.io/errors):** `AccessForbidden`, `ErrorOccured`, `AlreadyShortened`, `InvalidImage`, `MalformedRequest`, `InvalidColor`
+**Raises [Errors](https://johnjiromanji.github.io/noicelink/errors):** `AccessForbidden`, `ErrorOccured`, `AlreadyShortened`, `InvalidImage`, `MalformedRequest`, `InvalidColor`
 
 **Sample:**
 
 Command: 
 ```py
-link = noicepy.Link.get(token="eyJhbGciOiJIU...") 
-link.edit(title="Creating a noice link with noicepy", description="Click it!")
+link = noicelink.Link.get(token="eyJhbGciOiJIU...") 
+link.edit(title="Creating a noice link with noicelink", description="Click it!")
 ```
 Response:
 ```py
-noicepy.Link(url= 'https://johnjiromanji.github.io/noicepy/create', description= 'Click it!', image= 'https://cdn.discordapp.com/emojis/808327502249328691.gif', title= 'Creating a noice link with noicepy', slug= 'noicepy-docs-create', token= 'eyJhbGciOiJIU...', developer= True, color= '#7289da', domain= 'noice.link')
+noicelink.Link(url= 'https://johnjiromanji.github.io/noicelink/create', description= 'Click it!', image= 'https://cdn.discordapp.com/emojis/808327502249328691.gif', title= 'Creating a noice link with noicepy', slug= 'noicelink-docs-create', token= 'eyJhbGciOiJIU...', developer= True, color= '#7289da', domain= 'noice.link')
 ```
 
-[Up Next: Deleting a Link](https://johnjiromanji.github.io/noicepy/delete)
+[Up Next: Deleting a Link](https://johnjiromanji.github.io/noicelink/delete)
 
-[Go Back: Fetching a Link](https://johnjiromanji.github.io/get)
+[Go Back: Fetching a Link](https://johnjiromanji.github.io/noicelink/get)
 
-[Go Home](https://johnjiromanji.github.io/noicepy)
+[Go Home](https://johnjiromanji.github.io/noicelink)
 
 [Questions, Problems, or Suggestions? Report them to the noice.link discord server](https://discord.com/invite/879kJMUgGP)
