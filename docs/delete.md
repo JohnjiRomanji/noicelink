@@ -1,7 +1,7 @@
 ## Deleting a Link
 
 ```py
-noicepy.Link.delete()
+nocielink.Link.delete()
 ```
 
 **Note:** Make sure the link provided has `developer` set to `True` and has a value for `token`, otherwise it will not work. 
@@ -14,7 +14,7 @@ returns `True` if successful
 
 Command:
 ```py
-link = noicepy.Link.get(token="eyJhbGciOiJIU...") 
+link = noicelink.Link.get(token="eyJhbGciOiJIU...") 
 link.delete()
 ```
 Response:
@@ -22,10 +22,10 @@ Response:
 True
 ```
 
-[Up Next: Errors](https://johnjiromanji.github.io/noicepy/errors)
+[Up Next: Errors](https://johnjiromanji.github.io/noicelink/errors)
 
-[Go Back: Editing a Link](https://johnjiromanji.github.io/edit)
+[Go Back: Editing a Link](https://johnjiromanji.github.io/noicelink/edit)
 
-[Go Home](https://johnjiromanji.github.io/noicepy)
+[Go Home](https://johnjiromanji.github.io/noicelink)
 
 [Questions, Problems, or Suggestions? Report them to the noice.link discord server](https://discord.com/invite/879kJMUgGP)
