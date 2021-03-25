@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='noice.py',
-    url='https://github.com/JohnjiRomanji/noice.py',
+    name='noicelink',
+    url='https://github.com/JohnjiRomanji/noicelink',
     author='JohnjiRomanji',
-    packages=['noice.py'],
+    packages=['noicelink'],
     install_requires=['requests'],
     # *strongly* suggested for sharing
     version='1.0',
-    docs="https://johnjiromanji.github.io/noice.py",
+    docs="https://johnjiromanji.github.io/noicelink",
     # The license can be anything you like
     license='MIT',
     description='A simple and easy to use Python wrapper for the noice.link API',
