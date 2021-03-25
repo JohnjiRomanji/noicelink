@@ -14,10 +14,10 @@
 
 
 
-[Up Next: Homepage](https://johnjiromanji.github.io/noicepy)
+[Up Next: Homepage](https://johnjiromanji.github.io/noicelink)
 
-[Go Back: Deleting a Link](https://johnjiromanji.github.io/delete)
+[Go Back: Deleting a Link](https://johnjiromanji.github.io/noicelink/delete)
 
-[Go Home](https://johnjiromanji.github.io/noicepy)
+[Go Home](https://johnjiromanji.github.io/noicelink)
 
 [Questions, Problems, or Suggestions? Report them to the noice.link discord server](https://discord.com/invite/879kJMUgGP)
