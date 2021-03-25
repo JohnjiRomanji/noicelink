@@ -32,4 +32,4 @@ https://johnjiromanji.github.io/noicepy
 Join the noice.link discord server (on the website) for support
 '''
 
-from .noicepy import Link
+from .noice.py import Link
