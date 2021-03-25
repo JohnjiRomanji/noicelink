@@ -1,13 +1,13 @@
 ## The `Link` Object
 
 ```py
-Link(**kwargs)
+noicelink.Link(**kwargs)
 ```
 
 | Attributes | Methods | Other Functions |
 |------------|---------|-----------------|
-| url        |[edit](https://johnjiromanji.github.io/noicepy/edit)    | new             |
-| slug       |[delete](https://johnjiromanji.github.io/noicepy/delete)  | get             |
+| url        |[edit](https://johnjiromanji.github.io/noicelink/edit)    | new             |
+| slug       |[delete](https://johnjiromanji.github.io/noicelink/delete)  | get             |
 | devloper   |str      |                 |
 | token      |repr     |                 |
 | title      |         |                 |
@@ -36,20 +36,20 @@ Sample Link object:
 ```py
 import noicepy
 noicepy.Link(
-    url="https://github.com/JohnjiRomanji/noicepy", 
-    slug="noicepy-docs", 
+    url="https://github.com/JohnjiRomanji/noicelink", 
+    slug="noicelink-docs", 
     developer=True, 
     token="eyASNOnjds..." #this is a sample
-    title="The Noicepy Docs", 
-    description="Sample Link Object that redirects to the noicepy docs",
+    title="The noicelink Docs", 
+    description="Sample Link Object that redirects to the noicelink docs",
     color="FFFF00"
     domain="noice.link"
 ```
 
-[Up Next: Creating a New Link](https://johnjiromanji.github.io/noicepy/create)
+[Up Next: Creating a New Link](https://johnjiromanji.github.io/noicelink/create)
 
-[Go Back: Quickstart](https://johnjiromanji.github.io/noicepy/quickstart)
+[Go Back: Quickstart](https://johnjiromanji.github.io/noicelink/quickstart)
 
-[Go Home](https://johnjiromanji.github.io/noicepy)
+[Go Home](https://johnjiromanji.github.io/noicelink)
 
 [Questions, Problems, or Suggestions? Report them to the noice.link discord server](https://discord.com/invite/879kJMUgGP)
