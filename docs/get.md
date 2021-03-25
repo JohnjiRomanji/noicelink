@@ -1,7 +1,7 @@
 ## Fetching a Link
 
 ```py
-noicepy.Link.get(**kwargs)
+noicelink.Link.get(**kwargs)
 ```
 
 **Kwargs:**
@@ -16,26 +16,26 @@ noicepy.Link.get(**kwargs)
 
 With a Token:
 ```py
-noicepy.Link.get(token="eyASNOnjds...")
+noicelink.Link.get(token="eyASNOnjds...")
 ```
 ```py
-noicepy.Link(url="https://github.com/JohnjiRomanji/noicepy", slug="noicepy-docs", developer=True, token="eyASNOnjds...", title="The Noicepy Docs", description="Sample Link Object that redirects to the noicepy docs", color="FFFF00", domain="noice.link")
+noicelink.Link(url="https://github.com/JohnjiRomanji/noicelink", slug="noicelink-docs", developer=True, token="eyASNOnjds...", title="The noicelink Docs", description="Sample Link Object that redirects to the noicelink docs", color="FFFF00", domain="noice.link")
  ```
 
 With a Slug:
 ```py
-noicepy.Link.get(slug="noicepy")
+noicelink.Link.get(slug="noicelink")
 ```
 ```py
-noicepy.Link('url': 'https://github.com/JohnjiRomanji/noicepy', 'description': 'The simple, easy to use, API wrapper for noi...', 'image': 'https://upload.wikime...', title= 'Noicepy on GitHub', slug= 'noicepy', token= None, developer= False, color= '#4b8bbe', domain='noice.link')
+noicelink.Link('url': 'https://github.com/JohnjiRomanji/noicelink', 'description': 'The simple, easy to use, API wrapper for noi...', 'image': 'https://upload.wikime...', title= 'noicelink on GitHub', slug= 'noicelink', token= None, developer= False, color= '#4b8bbe', domain='noice.link')
  ```
 Notice how developer is `False` in the returned link, whihc mean it is in the read only mode. 
  
 
-[Up Next: Editing a Link](https://johnjiromanji.github.io/noicepy/edit)
+[Up Next: Editing a Link](https://johnjiromanji.github.io/noicelink/edit)
 
-[Go Back: Creating a New Link](https://johnjiromanji.github.io/noicepy/create)
+[Go Back: Creating a New Link](https://johnjiromanji.github.io/noicelink/create)
 
-[Go Home](https://johnjiromanji.github.io/noicepy)
+[Go Home](https://johnjiromanji.github.io/noicelink)
 
 [Questions, Problems, or Suggestions? Report them to the noice.link discord server](https://discord.com/invite/879kJMUgGP)
