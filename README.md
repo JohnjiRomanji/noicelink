@@ -6,23 +6,23 @@
 
 In your ternimal, with pip installed, run the following command to install: 
 ```
-pip install noicepy
+pip install noicelink
 ```
 
 Or with git: 
 ```
-pip install git+https://github.com/JohnjiRomanji/noicepy.git
+pip install git+https://github.com/JohnjiRomanji/noicelink.git
 ```
 
 After that you should be good to import noicepy and use it like in the docs. 
 ```py
-import noicepy
+import noicelink
 ```
 
 #### LOOK AT THE DOCS 
 ##### PLEASE LOOK AT THE DOCS
 
-**https://johnjiromanji.github.io/noicepy**
+**https://johnjiromanji.github.io/noicelink**
 
 [Questions, Problems, or Suggestions? Report them to the noice.link discord server](https://discord.com/invite/879kJMUgGP)
 
